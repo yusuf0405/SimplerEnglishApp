@@ -7,7 +7,7 @@ class HandleDomainError : HandleError {
 
     override fun handle(error: Exception): Exception =
         if (error is UnknownHostException)
-            NoInternetConnection()
+            NoInternetConnectionException()
         else
-            ServiceUnavailableExemption()
+            ServiceUnavailableException()
 }
