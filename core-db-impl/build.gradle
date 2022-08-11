@@ -35,6 +35,10 @@ dependencies {
 
     implementation project(':core-db-api')
 
+    //Dagger2
+    implementation "com.google.dagger:dagger:$dagger_version"
+    kapt("com.google.dagger:dagger-compiler:$dagger_version")
+
     implementation 'androidx.core:core-ktx:1.7.0'
     implementation 'androidx.appcompat:appcompat:1.4.2'
     implementation 'com.google.android.material:material:1.6.1'
