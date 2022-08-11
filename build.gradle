@@ -11,6 +11,9 @@ buildscript {
             constraint_layout_version = "2.1.4"
             legacy_support_version = "1.0.0"
 
+            //Dagger2
+            dagger_version = "2.42"
+
             //Room
             room_version = "2.4.2"
 
