@@ -1,4 +1,4 @@
-package com.joseph.core_network_impl
+package com.joseph.core_network_impl.data
 
 import com.joseph.core_network_api.ProvideConverterFactory
 import retrofit2.Converter
