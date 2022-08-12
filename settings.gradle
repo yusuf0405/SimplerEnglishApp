@@ -16,7 +16,7 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "SimplerEnglishApp"
-include ':app'
+include ':simple-english-app'
 include ':core-db-api'
 include ':core-db-impl'
 include ':core-network-api'

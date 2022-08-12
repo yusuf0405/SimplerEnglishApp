@@ -10,7 +10,6 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/core-db-api" />
             <option value="$PROJECT_DIR$/core-db-impl" />
             <option value="$PROJECT_DIR$/core-mvvm" />
@@ -18,6 +17,7 @@
             <option value="$PROJECT_DIR$/core-network-impl" />
             <option value="$PROJECT_DIR$/core-resource" />
             <option value="$PROJECT_DIR$/core-utils" />
+            <option value="$PROJECT_DIR$/simple-english-app" />
           </set>
         </option>
       </GradleProjectSettings>
