@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="start_screens_title_size">22sp</dimen>
+    <dimen name="start_screens_description_size">16sp</dimen>
+    <dimen name="start_screens_skip_text_size">14sp</dimen>
+</resources>
