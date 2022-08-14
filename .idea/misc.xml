@@ -4,6 +4,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="simple-english-app/src/main/res/layout/activity_main.xml" value="0.28055555555555556" />
+        <entry key="simple-english-app/src/main/res/layout/fragment_second_start.xml" value="0.28055555555555556" />
+        <entry key="simple-english-app/src/main/res/layout/fragment_third_start.xml" value="0.28055555555555556" />
+        <entry key="simple-english-app/src/main/res/layout/fragment_view_pager.xml" value="0.28055555555555556" />
       </map>
     </option>
   </component>
