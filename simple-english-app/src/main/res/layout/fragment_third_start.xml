@@ -16,10 +16,10 @@
     <ImageView
         android:id="@+id/imageView"
         style="@style/start_screens_image_view_style"
-        android:layout_marginTop="68dp"
         android:src="@drawable/ic_illustration_third"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/guideline5"
+        app:layout_constraintEnd_toStartOf="@+id/guideline6"
+        app:layout_constraintStart_toStartOf="@+id/guideline7"
         app:layout_constraintTop_toTopOf="@+id/guideline2" />
 
     <TextView
@@ -48,20 +48,18 @@
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.68" />
+        style="@style/Guideline_Horizontal"
+        app:layout_constraintGuide_percent="0.74" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/positive_button"
         style="@style/ButtonStyle.Blue"
-        android:layout_marginTop="84dp"
         android:text="@string/sign_up"
-        app:layout_constraintEnd_toStartOf="@+id/appCompatButton"
+        app:layout_constraintBottom_toTopOf="@+id/guideline16"
+        app:layout_constraintEnd_toStartOf="@+id/guideline12"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+        app:layout_constraintStart_toStartOf="@+id/guideline10"
+        app:layout_constraintTop_toTopOf="@+id/guideline15" />
 
 
     <androidx.appcompat.widget.AppCompatButton
@@ -70,10 +68,54 @@
         android:text="@string/login"
         android:textAllCaps="false"
         android:textColor="@color/app_color"
-        app:layout_constraintBottom_toBottomOf="@+id/positive_button"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/positive_button"
-        app:layout_constraintTop_toTopOf="@+id/positive_button" />
+        app:layout_constraintBottom_toTopOf="@+id/guideline16"
+        app:layout_constraintEnd_toStartOf="@+id/guideline14"
+        app:layout_constraintStart_toStartOf="@+id/guideline13"
+        app:layout_constraintTop_toTopOf="@+id/guideline15" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline5"
+        style="@style/Guideline_Horizontal"
+        app:layout_constraintGuide_percent="0.46" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline6"
+        style="@style/Guideline_Vertical"
+        app:layout_constraintGuide_percent="0.82481754" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline7"
+        style="@style/Guideline_Vertical"
+        app:layout_constraintGuide_percent="0.18004866" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline10"
+        style="@style/Guideline_Vertical"
+        app:layout_constraintGuide_percent="0.0729927" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline12"
+        style="@style/Guideline_Vertical"
+        app:layout_constraintGuide_percent="0.4622871" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline13"
+        style="@style/Guideline_Vertical"
+        app:layout_constraintGuide_percent="0.540146" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline14"
+        style="@style/Guideline_Vertical"
+        app:layout_constraintGuide_percent="0.9294404" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline15"
+        style="@style/Guideline_Horizontal"
+        app:layout_constraintGuide_percent="0.8" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline16"
+        style="@style/Guideline_Horizontal"
+        app:layout_constraintGuide_percent="0.868673" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
