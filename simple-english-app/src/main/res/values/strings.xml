@@ -2,4 +2,13 @@
     <string name="app_name">SimplerEnglishApp</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="skip_start_screens">Skip</string>
+    <string name="start_first_screen_title">Better way to learning is calling you!</string>
+    <string name="start_first_screen_description">Learn anytime, anywhere.</string>
+    <string name="start_second_screen_title">Find yourself doing what you love!</string>
+    <string name="start_second_screen_description">Learn, progress and get better.</string>
+    <string name="start_third_screen_title">It\'s not just learning This is a promise!</string>
+    <string name="start_third_screen_description">Using our application you will master the language in the shortest possible time.</string>
+    <string name="sign_up">Sign up</string>
+    <string name="login">Login</string>
 </resources>

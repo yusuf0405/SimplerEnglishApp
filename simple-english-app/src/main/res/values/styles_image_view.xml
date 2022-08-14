@@ -15,7 +15,7 @@
         <item name="android:layout_marginEnd">24dp</item>
         <item name="android:layout_marginBottom">36dp</item>
         <item name="android:background">@drawable/round_shape_blue</item>
-        <item name="android:src">@drawable/ic_baseline_navigate_next_24</item>
+        <item name="android:src">@drawable/ic_navigate_next</item>
         <item name="android:elevation">24dp</item>
     </style>
 
