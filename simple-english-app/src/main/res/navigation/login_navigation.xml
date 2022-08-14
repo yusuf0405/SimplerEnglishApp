@@ -2,7 +2,23 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/app_nav">
+    android:id="@+id/app_nav"
+    app:startDestination="@id/fragmentFirstStart">
 
 
+    <fragment
+        android:id="@+id/fragmentFirstStart"
+        android:name="com.joseph.simplerapp.FragmentFirstStart"
+        android:label="fragment_first_start"
+        tools:layout="@layout/fragment_first_start" />
+    <fragment
+        android:id="@+id/fragmentSecondStart"
+        android:name="com.joseph.simplerapp.FragmentSecondStart"
+        android:label="fragment_second_start"
+        tools:layout="@layout/fragment_second_start" />
+    <fragment
+        android:id="@+id/fragmentThirdStart"
+        android:name="com.joseph.simplerapp.FragmentThirdStart"
+        android:label="fragment_third_start"
+        tools:layout="@layout/fragment_third_start" />
 </navigation>
