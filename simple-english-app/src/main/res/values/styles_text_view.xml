@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="start_screens_title_text_view_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">24dp</item>
+        <item name="android:layout_marginTop">36dp</item>
+        <item name="android:fontFamily">@font/plus_jakarta_sans_bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:lines">2</item>
+        <item name="android:outlineProvider">paddedBounds</item>
+        <item name="android:textColor">@color/start_screens_title_color</item>
+        <item name="android:textSize">@dimen/start_screens_title_size</item>
+    </style>
+
+    <style name="start_screens_skip_text_view_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:outlineProvider">paddedBounds</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginEnd">24dp</item>
+        <item name="android:elevation">18dp</item>
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:text">@string/skip_start_screens</item>
+        <item name="android:textColor">@color/grey</item>
+    </style>
+
+    <style name="start_screens_description_text_view_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:outlineProvider">paddedBounds</item>
+        <item name="android:textSize">@dimen/start_screens_description_size</item>
+    </style>
+
+</resources>
