@@ -5,9 +5,9 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.joseph.simplerapp.FragmentFirstStart
-import com.joseph.simplerapp.FragmentSecondStart
-import com.joseph.simplerapp.FragmentThirdStart
+import com.joseph.simplerapp.start_screens.FragmentFirstStart
+import com.joseph.simplerapp.start_screens.FragmentSecondStart
+import com.joseph.simplerapp.start_screens.FragmentThirdStart
 import com.joseph.simplerapp.databinding.FragmentViewPagerBinding
 
 class FragmentViewPager : Fragment() {

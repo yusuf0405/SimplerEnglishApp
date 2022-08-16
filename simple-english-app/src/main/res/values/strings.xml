@@ -11,4 +11,14 @@
     <string name="start_third_screen_description">Using our application you will master the language in the shortest possible time.</string>
     <string name="sign_up">Sign up</string>
     <string name="login">Login</string>
+    <string name="welcome_back">Welcome back! Sign in to continue!</string>
+    <string name="google">Login in with Google</string>
+    <string name="login_in">Login in</string>
+    <string name="forgot_password">Forgot your password?</string>
+    <string name="Dont_have_an_account">Don’t have an account?</string>
+    <string name="or_login_with">Or login with</string>
+    <string name="your_email">Your Email</string>
+    <string name="your_password">Password</string>
+    <string name="ener_your_password">Ener your password</string>
+    <string name="ener_your_email">Ener your email</string>
 </resources>

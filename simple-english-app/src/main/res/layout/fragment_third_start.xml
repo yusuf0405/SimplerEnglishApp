@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FragmentThirdStart">
+    tools:context=".start_screens.FragmentThirdStart">
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_begin="37dp" />
+        app:layout_constraintGuide_percent="0.12" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -52,7 +52,7 @@
         app:layout_constraintGuide_percent="0.74" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/positive_button"
+        android:id="@+id/sign_up_button"
         style="@style/ButtonStyle.Blue"
         android:text="@string/sign_up"
         app:layout_constraintBottom_toTopOf="@+id/guideline16"
@@ -63,11 +63,10 @@
 
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/appCompatButton"
+        android:id="@+id/login_button"
         style="@style/ButtonStyle.White"
         android:text="@string/login"
         android:textAllCaps="false"
-        android:textColor="@color/app_color"
         app:layout_constraintBottom_toTopOf="@+id/guideline16"
         app:layout_constraintEnd_toStartOf="@+id/guideline14"
         app:layout_constraintStart_toStartOf="@+id/guideline13"

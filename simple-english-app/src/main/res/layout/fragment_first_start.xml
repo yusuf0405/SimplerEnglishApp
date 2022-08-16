@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".FragmentFirstStart">
+    tools:context=".start_screens.FragmentFirstStart">
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline2"
@@ -57,6 +57,7 @@
         app:layout_constraintGuide_percent="0.74" />
 
     <ImageView
+        android:id="@+id/next_fragment"
         style="@style/start_screens_next_image_view_style"
         app:layout_constraintBottom_toTopOf="@+id/guideline9"
         app:layout_constraintEnd_toEndOf="parent"

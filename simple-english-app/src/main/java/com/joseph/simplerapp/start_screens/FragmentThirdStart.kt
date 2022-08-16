@@ -5,19 +5,21 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.annotation.IdRes
-import androidx.fragment.app.FragmentManager
+import androidx.navigation.fragment.findNavController
 import com.joseph.simplerapp.R
-import com.joseph.simplerapp.databinding.FragmentFirstStartBinding
+import com.joseph.simplerapp.databinding.FragmentThirdStartBinding
 
-class FragmentFirstStart : Fragment() {
-
+class FragmentThirdStart : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        val binding = FragmentFirstStartBinding.inflate(layoutInflater)
 
+        val binding = FragmentThirdStartBinding.inflate(layoutInflater)
+        binding.loginButton.setOnClickListener {
+            findNavController().navigate(R.id.action_fragmentViewPager_to_fragmentLogin)
+        }
         return binding.root
     }
+
 }

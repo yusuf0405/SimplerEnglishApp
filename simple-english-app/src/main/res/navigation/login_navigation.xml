@@ -5,25 +5,26 @@
     android:id="@+id/app_nav"
     app:startDestination="@id/fragmentViewPager">
 
-
-    <fragment
-        android:id="@+id/fragmentFirstStart"
-        android:name="com.joseph.simplerapp.FragmentFirstStart"
-        android:label="fragment_first_start"
-        tools:layout="@layout/fragment_first_start" />
-    <fragment
-        android:id="@+id/fragmentSecondStart"
-        android:name="com.joseph.simplerapp.FragmentSecondStart"
-        android:label="fragment_second_start"
-        tools:layout="@layout/fragment_second_start" />
-    <fragment
-        android:id="@+id/fragmentThirdStart"
-        android:name="com.joseph.simplerapp.FragmentThirdStart"
-        android:label="fragment_third_start"
-        tools:layout="@layout/fragment_third_start" />
     <fragment
         android:id="@+id/fragmentViewPager"
         android:name="com.joseph.simplerapp.view_pager.FragmentViewPager"
         android:label="fragment_view_pager"
-        tools:layout="@layout/fragment_view_pager" />
+        tools:layout="@layout/fragment_view_pager" >
+        <action
+            android:id="@+id/action_fragmentViewPager_to_fragmentLogin"
+            app:destination="@id/fragmentLogin" />
+        <action
+            android:id="@+id/action_fragmentViewPager_to_fragmentSignUp"
+            app:destination="@id/fragmentSignUp" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentLogin"
+        android:name="com.joseph.simplerapp.FragmentLogin"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" />
+    <fragment
+        android:id="@+id/fragmentSignUp"
+        android:name="com.joseph.simplerapp.FragmentSignUp"
+        android:label="fragment_sign_up"
+        tools:layout="@layout/fragment_sign_up" />
 </navigation>
