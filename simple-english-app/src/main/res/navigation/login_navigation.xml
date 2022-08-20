@@ -33,7 +33,7 @@
     </fragment>
     <fragment
         android:id="@+id/fragmentVerificationCode"
-        android:name="com.joseph.simplerapp.FragmentVerificationCode"
+        android:name="com.joseph.simplerapp.FragmentEnterNumber"
         android:label="fragment_fragment_verification_code"
-        tools:layout="@layout/fragment_verification_code" />
+        tools:layout="@layout/fragment_enter_number" />
 </navigation>
