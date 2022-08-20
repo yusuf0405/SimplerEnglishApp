@@ -25,12 +25,8 @@
         app:layout_constraintGuide_percent="0.04" />
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/plus_jakarta_sans_bold"
+        style="@style/login_screens_title_text_view_style"
         android:text="@string/login"
-        android:textColor="@color/app_color"
-        android:textSize="24sp"
         app:layout_constraintStart_toStartOf="@+id/guideline17"
         app:layout_constraintTop_toTopOf="@+id/guideline19" />
 
@@ -88,7 +84,7 @@
             android:backgroundTint="@android:color/transparent"
             android:ems="10"
             android:hint="@string/ener_your_password"
-            android:inputType="textEmailAddress"
+            android:inputType="textPassword"
             android:paddingStart="12dp" />
     </androidx.cardview.widget.CardView>
 

@@ -19,6 +19,9 @@ class FragmentThirdStart : Fragment() {
         binding.loginButton.setOnClickListener {
             findNavController().navigate(R.id.action_fragmentViewPager_to_fragmentLogin)
         }
+        binding.signUpButton.setOnClickListener {
+            findNavController().navigate(R.id.action_fragmentViewPager_to_fragmentSignUp)
+        }
         return binding.root
     }
 

@@ -26,5 +26,14 @@
         android:id="@+id/fragmentSignUp"
         android:name="com.joseph.simplerapp.FragmentSignUp"
         android:label="fragment_sign_up"
-        tools:layout="@layout/fragment_sign_up" />
+        tools:layout="@layout/fragment_sign_up" >
+        <action
+            android:id="@+id/action_fragmentSignUp_to_fragmentVerificationCode"
+            app:destination="@id/fragmentVerificationCode" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentVerificationCode"
+        android:name="com.joseph.simplerapp.FragmentVerificationCode"
+        android:label="fragment_fragment_verification_code"
+        tools:layout="@layout/fragment_verification_code" />
 </navigation>
