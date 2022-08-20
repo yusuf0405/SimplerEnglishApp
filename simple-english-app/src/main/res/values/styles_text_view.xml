@@ -14,6 +14,16 @@
         <item name="android:textSize">@dimen/start_screens_title_size</item>
     </style>
 
+    <style name="login_screens_title_text_view_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:fontFamily">@font/plus_jakarta_sans_bold</item>
+        <item name="android:outlineProvider">paddedBounds</item>
+        <item name="android:textColor">@color/app_color</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
     <style name="start_screens_skip_text_view_style">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:outlineProvider">paddedBounds</item>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="login_screens_edit_text_style" parent="ThemeOverlay.Material3.TextInputEditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:backgroundTint">@android:color/transparent</item>
+        <item name="android:ems">10</item>
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:paddingStart">12dp</item>
+    </style>
+
+</resources>

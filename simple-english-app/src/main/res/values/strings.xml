@@ -21,4 +21,13 @@
     <string name="your_password">Password</string>
     <string name="ener_your_password">Ener your password</string>
     <string name="ener_your_email">Ener your email</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="your_user_name">Your Username</string>
+    <string name="ener_your_username">Enter your username</string>
+    <string name="free_sign_up_message"><![CDATA[Enter your details below & free sign up]]></string>
+    <string name="your_number">Your number</string>
+    <string name="ener_your_number">Enter your number</string>
+    <string name="continue_with_phone">Continue with Phone</string>
+    <string name="continue_">Continue</string>
+    <string name="enter_your_phone_number">Enter Your Phone Number</string>
 </resources>
