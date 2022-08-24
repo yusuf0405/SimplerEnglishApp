@@ -28,12 +28,21 @@
         android:label="fragment_sign_up"
         tools:layout="@layout/fragment_sign_up" >
         <action
-            android:id="@+id/action_fragmentSignUp_to_fragmentVerificationCode"
+            android:id="@+id/action_fragmentSignUp_to_fragmentEnterNumber"
+            app:destination="@id/fragmentEnterNumber" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentEnterNumber"
+        android:name="com.joseph.simplerapp.FragmentEnterNumber"
+        android:label="fragment_enter_number"
+        tools:layout="@layout/fragment_enter_number" >
+        <action
+            android:id="@+id/action_fragmentEnterNumber_to_fragmentVerificationCode"
             app:destination="@id/fragmentVerificationCode" />
     </fragment>
     <fragment
         android:id="@+id/fragmentVerificationCode"
-        android:name="com.joseph.simplerapp.FragmentEnterNumber"
-        android:label="fragment_fragment_verification_code"
-        tools:layout="@layout/fragment_enter_number" />
+        android:name="com.joseph.simplerapp.FragmentVerificationCode"
+        android:label="fragment_verefication_code"
+        tools:layout="@layout/fragment_verefication_code" />
 </navigation>

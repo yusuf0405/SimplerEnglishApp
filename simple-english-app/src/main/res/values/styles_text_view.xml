@@ -21,7 +21,7 @@
         <item name="android:fontFamily">@font/plus_jakarta_sans_bold</item>
         <item name="android:outlineProvider">paddedBounds</item>
         <item name="android:textColor">@color/app_color</item>
-        <item name="android:textSize">24sp</item>
+        <item name="android:textSize">28sp</item>
     </style>
 
     <style name="start_screens_skip_text_view_style">

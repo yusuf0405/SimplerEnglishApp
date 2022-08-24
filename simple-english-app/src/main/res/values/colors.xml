@@ -7,11 +7,13 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="red">#E41212</color>
 
 
     <color name="app_color">#3D5CFF</color>
     <color name="start_screens_title_color">#1F1F39</color>
     <color name="grey">#858597</color>
+    <color name="grey_light">#B8B8D2</color>
     <color name="medium_grey">#DADADA</color>
     <color name="light_grey">#E5E4E4</color>
 

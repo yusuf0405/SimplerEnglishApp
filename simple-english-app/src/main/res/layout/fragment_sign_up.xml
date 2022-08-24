@@ -6,6 +6,13 @@
     android:layout_height="match_parent"
     tools:context=".FragmentSignUp">
 
+    <Toolbar
+        android:id="@+id/toolbar"
+        style="@style/toolbar_transparent_style"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline17"
         style="@style/Guideline_Vertical"
@@ -16,39 +23,33 @@
         style="@style/Guideline_Vertical"
         app:layout_constraintGuide_percent="0.95" />
 
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline19"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.04" />
-
     <TextView
         android:id="@+id/textView5"
         style="@style/login_screens_title_text_view_style"
+        android:layout_marginTop="8dp"
         android:text="@string/sign_up"
         app:layout_constraintStart_toStartOf="@+id/guideline17"
-        app:layout_constraintTop_toTopOf="@+id/guideline19" />
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline20"
         style="@style/Guideline_Horizontal"
-        app:layout_constraintGuide_percent="0.21" />
+        app:layout_constraintGuide_percent="0.27" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline21"
         style="@style/Guideline_Horizontal"
-        app:layout_constraintGuide_percent="0.3" />
+        app:layout_constraintGuide_percent="0.35" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline22"
         style="@style/Guideline_Horizontal"
-        app:layout_constraintGuide_percent="0.36" />
+        app:layout_constraintGuide_percent="0.41" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline23"
         style="@style/Guideline_Horizontal"
-        app:layout_constraintGuide_percent="0.45" />
+        app:layout_constraintGuide_percent="0.49" />
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView2"
@@ -84,12 +85,12 @@
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline24"
         style="@style/Guideline_Horizontal"
-        app:layout_constraintGuide_percent="0.66" />
+        app:layout_constraintGuide_percent="0.69" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline25"
         style="@style/Guideline_Horizontal"
-        app:layout_constraintGuide_percent="0.74" />
+        app:layout_constraintGuide_percent="0.77" />
 
     <Button
         android:id="@+id/sign_up_button"
@@ -103,12 +104,12 @@
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline26"
         style="@style/Guideline_Horizontal"
-        app:layout_constraintGuide_percent="0.51" />
+        app:layout_constraintGuide_percent="0.54" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline27"
         style="@style/Guideline_Horizontal"
-        app:layout_constraintGuide_percent="0.6" />
+        app:layout_constraintGuide_percent="0.63" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline29"
@@ -193,6 +194,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
+        android:textSize="12sp"
         android:fontFamily="@font/poppins"
         android:text="@string/free_sign_up_message"
         app:layout_constraintStart_toStartOf="@+id/textView5"

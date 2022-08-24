@@ -75,6 +75,8 @@ dependencies {
     implementation "androidx.lifecycle:lifecycle-livedata-ktx:$live_data_version"
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$view_model_version"
 
+    implementation 'com.github.gongw:verifycodeview:1.0.2'
+
     // Base
     implementation "androidx.core:core-ktx:$core_ktx_verion"
     implementation "androidx.appcompat:appcompat:$app_compat_verion"

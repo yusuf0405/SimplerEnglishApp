@@ -6,6 +6,9 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.navigation.fragment.findNavController
+import com.joseph.simplerapp.databinding.FragmentEnterNumberBinding
+import com.joseph.simplerapp.databinding.FragmentSignUpBinding
 
 class FragmentEnterNumber : Fragment() {
 
@@ -18,14 +21,13 @@ class FragmentEnterNumber : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
-        return inflater.inflate(R.layout.fragment_enter_number, container, false)
+    ): View {
+        val binding = FragmentEnterNumberBinding.inflate(layoutInflater)
+        binding.continueButton.setOnClickListener {
+            findNavController().navigate(R.id.action_fragmentEnterNumber_to_fragmentVerificationCode)
+        }
+        return binding.root
     }
 
-    override fun onActivityCreated(savedInstanceState: Bundle?) {
-        super.onActivityCreated(savedInstanceState)
-        viewModel = ViewModelProvider(this).get(FragmentEnterNumberViewModel::class.java)
-        // TODO: Use the ViewModel
-    }
 
 }

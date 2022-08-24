@@ -30,4 +30,7 @@
     <string name="continue_with_phone">Continue with Phone</string>
     <string name="continue_">Continue</string>
     <string name="enter_your_phone_number">Enter Your Phone Number</string>
+    <string name="verify_phone">Verify Phone</string>
+    <string name="another_number">Another number?</string>
+    <string name="submit_new_code">Submit new code</string>
 </resources>
