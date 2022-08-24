@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="toolbar_transparent_style" parent="ThemeOverlay.MaterialComponents.Light">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">?android:attr/actionBarSize</item>
+        <item name="android:navigationIcon">@drawable/ic_back</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="layout_collapseMode">pin</item>
+        <item name="layout_constraintEnd_toEndOf">parent</item>
+        <item name="layout_constraintStart_toStartOf">parent</item>
+        <item name="layout_constraintTop_toTopOf">parent</item>
+    </style>
+
+    <string name="back">Back</string>
+</resources>
