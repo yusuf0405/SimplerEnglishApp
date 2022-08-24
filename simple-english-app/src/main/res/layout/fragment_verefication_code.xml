@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentVerificationCode">
+
+    <Toolbar
+        android:id="@+id/toolbar"
+        style="@style/toolbar_transparent_style"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/send_code_in_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:fontFamily="@font/poppins"
+        android:text="The code has been sent to +7 999 123-45-67"
+        android:textColor="@color/grey"
+        app:layout_constraintBottom_toTopOf="@+id/another_number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/another_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/poppins"
+        android:text="@string/another_number"
+        android:textColor="@color/app_color"
+        app:layout_constraintBottom_toTopOf="@+id/verifyCodeView"
+        app:layout_constraintEnd_toEndOf="@+id/send_code_in_number"
+        app:layout_constraintStart_toStartOf="@+id/send_code_in_number" />
+
+    <com.github.gongw.VerifyCodeView
+        android:id="@+id/verifyCodeView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline36"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline19"
+        app:vcDividerWidth="8dp"
+        app:vcNextWrapperColor="@color/app_color"
+        app:vcTextColor="@color/black"
+        app:vcTextCount="6"
+        app:vcTextSize="36sp"
+        app:vcWrapper="underLine"
+        app:vcWrapperColor="@color/grey"
+        app:vcWrapperStrokeWidth="2dp" />
+
+    <TextView
+        android:id="@+id/send_code_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
+        android:fontFamily="@font/poppins"
+        android:text="через 60 сек"
+        android:textColor="@color/app_color"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/send_code_text"
+        app:layout_constraintStart_toEndOf="@+id/send_code_text"
+        app:layout_constraintTop_toTopOf="@+id/send_code_text" />
+
+    <TextView
+        android:id="@+id/send_code_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/poppins"
+        android:text="@string/submit_new_code"
+        android:textColor="@color/grey"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/verifyCodeView" />
+
+    <Button
+        android:id="@+id/send_again_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Отправить заново"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/verifyCodeView" />
+
+    <TextView
+        android:id="@+id/textView10"
+        style="@style/login_screens_title_text_view_style"
+        android:layout_marginBottom="24dp"
+        android:text="@string/verify_phone"
+        app:layout_constraintBottom_toTopOf="@+id/send_code_in_number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.30232558" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.39534885" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
